@@ -1,0 +1,9 @@
+- InstallJava
+- InstallSSH
+
+- Add HADOOP_HOME
+- Add in /hadoop/etc/hadoop/core-sites.xml
+	<property>
+ 	 <name>fs.defaultFS</name>
+	 <value>hdfs://localhost:9000</value>
+	</property>

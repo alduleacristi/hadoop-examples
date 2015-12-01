@@ -1,0 +1,15 @@
+--Install SSH using the command.
+
+sudo apt-get install ssh
+
+--Generate ssh key
+ssh -keygen -t rsa -P “” (press enter when asked for a file name; this --will generate a passwordless ssh file)
+
+--Now copy the public key (id_rsa.pub) of current machine  to authorized_keysBelow command copies the generated public key in the .ssh/authorized_keys file:
+
+cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
+
+--Verify ssh configuration using the command
+
+ssh localhost
+--Pressing yes will add localhost to known hosts
