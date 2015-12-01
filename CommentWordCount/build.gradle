@@ -1,0 +1,5 @@
+project.ext.mainclass = 'ro.unitbv.fmi.CommentWordCount'
+project.ext.archiveName = 'CommentWordCount.jar'
+
+apply from: '/home/hadoop/exercises/build.gradle'
+

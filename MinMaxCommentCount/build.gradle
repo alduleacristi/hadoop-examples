@@ -1,0 +1,4 @@
+project.ext.mainclass = 'ro.unitbv.fmi.jobs.MinMaxCommentCountJob'
+project.ext.archiveName = 'MinMaxCommentCount.jar'
+
+apply from: '/home/hadoop/exercises/build.gradle'

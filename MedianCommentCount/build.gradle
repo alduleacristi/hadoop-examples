@@ -1,0 +1,5 @@
+project.ext.mainclass = 'ro.unitbv.fmi.jobs.MedianCommentCountJob'
+project.ext.archiveName = 'MedianCommentCount.jar'
+
+apply from: '/home/hadoop/exercises/build.gradle'
+
